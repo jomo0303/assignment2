@@ -1,0 +1,42 @@
+Went through Git Lab tutorials 10/23/2024
+Created GitHub Account 5/24/2018
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+I used the command git log to get 8 commits
+
+The README was last updated Wed Oct 23 16:51:13 2024
+I used git log README.md to get this information
+
+Branches are used to insulate the main branch from any changes that may stop it 
+from functioning correctly until the branches are ready to be integrated
+Branches are also used to collaborate with other people and by merging multiple branches
+multiple people have worked on a complete project can be assembled
+
+git status shows if the remote branch is updated with the contents of the repository
+and git log shows the details of all commits
+
+I would use git log --follow Vehicle.h
+
+I would use git log --grep "file"
+
+Inheritance is the concept of a child inheriting 
+the attributes and methods of the parent object
+Polymorphism allows for the parent objec to be implemented in many ways 
+via child objects overriding parent methods 
+Encapsulation is the concept of combining methods and attributes into 1 object called a class
+
+The main difference between dicator and lieutenants vs integration manager is that
+in integration manager version all developers get their own repository but in 
+dictator and lieutenants developers push to lieutenant repositories
+then those changes can be merged into the dictator and pushed to the blessed repository
+
+A large team of 100 developers would benefit from dictator and lieutenant workflow because 
+with a large team in a centralized workflow there may be many situations where someone is
+working on a feature and then the main is updated and there will be a conflict when trying to push
+the new feature onto main
+
+Link to my fork: https://github.com/jomo0303/assignment2
